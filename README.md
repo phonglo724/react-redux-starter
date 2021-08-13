@@ -1,3 +1,21 @@
+# REDUX
+
+1. Run `npm install` to install your node_modules
+2. Run `npm i redux react-redux` (gets access to the store to all of your components)
+3. Run `npm start` to start your server
+
+# BUILDING REDUX STORE
+
+1. We have to build our redux store if we're going to be saving our state into a redux store. Remember the redux store is really just an object, but that object is going to hold our state and it's going to hold it outside of our React application. Essentially on the top level.
+2. Go into index.js and import `Provider`. THE PROVIDER GIVES US ACCESS TO THE STORE.
+3. We'll wrap the `App` in the `Provider`.
+4. Instead of building out the store inside of index.js, we'll take a detour. 
+5. Right click on your `src` folder and create a folder called `Redux`.
+6. In the `Redux` directory, we'll create 2 other directories: `reducers` and `store`.
+7. 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
